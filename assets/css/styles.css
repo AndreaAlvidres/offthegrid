@@ -5,15 +5,16 @@ html {
 }
 body {
 	margin: 1rem;
-	background: url("../img/coffee.gif");
+	background: url("../img/coffee_new.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	color: whitesmoke;
+	color: rgb(80, 36, 0);
 	font-size: 5rem;
 	overflow: hidden;
 	transition-property: transform;
 	transition-duration: 3s;
+	text-shadow: 1px 1px 2px black, 0 0 0.1em rgb(255, 162, 0), 0 0 0.1em rgb(255, 238, 0);
 }
 .grid-container{
 	display: grid;
@@ -26,4 +27,8 @@ body {
 }
 * {
 	font-family: Arial;
+}
+div {
+    transition-property: transform;
+    transition-duration: 1s;
 }
